@@ -1,0 +1,8 @@
+# Zabezpieczenie na przyszłość: nigdy nie commitować faktycznych
+# backupów/danych (klucze, hasła, zrzuty baz) - tylko same skrypty.
+rpi-migration-*/
+*.sql
+*.tar.gz
+*.tar
+*.conf
+*.env

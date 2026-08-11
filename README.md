@@ -5,6 +5,12 @@ MariaDB, Samba, VPN, cron, itd.) przy migracji na nowy system/architekturę.
 
 ## Użycie
 
+Wgraj oba skrypty do katalogu domowego użytkownika na Raspberry Pi
+(`/home/<user>`, czyli `~`), np.:
+```bash
+scp backup.sh restore.sh <user>@<pi>:~/
+```
+
 Na starym systemie:
 ```bash
 chmod +x backup.sh

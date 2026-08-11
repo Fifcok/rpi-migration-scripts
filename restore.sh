@@ -56,7 +56,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
     openvpn wireguard wireguard-tools \
     fail2ban iptables-persistent netfilter-persistent \
     certbot python3-certbot-apache \
-    rsyslog acl \
+    rsyslog acl wtmpdb \
     || true
 
 # ==================================================
